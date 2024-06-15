@@ -1,0 +1,63 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    padding: 8px;
+    background: #000;
+    color: white;
+    border-radius: 4px;
+    width: 5rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input:focus{
+    outline: none;
+}
+.search{
+    padding: 8px;
+    width: 30rem;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0.5rem;
+    background: #fff3f3;
+    width: 28rem;
+    padding: 20px;
+    border-radius: 4px;
+    
+}
+.title{
+     font-weight: 600;
+}
+.author-section{
+    display: flex;
+    gap: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 6rem;
+}
+.loading{
+    text-align: center;
+}
